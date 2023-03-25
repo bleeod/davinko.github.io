@@ -42,7 +42,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: rgb(57, 98, 212);
+	color: rgb(121, 29, 206);
 }
 
 .cta {
@@ -50,7 +50,7 @@ p {
 	padding: 10px 30px;
 	color: white;
 	background-color: transparent;
-	border: 2px solid rgb(57, 98, 212);
+	border: 2px solid rgb(121, 29, 206);
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
@@ -60,7 +60,7 @@ p {
 }
 .cta:hover {
 	color: white;
-	background-color: rgb(57, 98, 212);
+	background-color: rgb(121, 29, 206);
 }
 .brand h1 {
 	font-size: 3rem;
@@ -68,7 +68,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: rgb(57, 98, 212);
+	color: rgb(121, 29, 206);
 }
 
 /* Header section */
@@ -140,7 +140,7 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: rgb(57, 98, 212);
+	color: rgb(121, 29, 206);
 }
 #header .hamburger {
 	height: 60px;
@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./assets/images/hero-bg.png);
+	background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVmYjEyNDYzZDFhNzQ1ZWEwNzM4MGE3OWE0MDljYTgwMjI0NmRiMCZjdD1n/fnglNFjBGiyAFtm6ke/giphy.gif);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -248,7 +248,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: rgb(57, 98, 212);
+	background-color: rgb(121, 29, 206);
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -291,7 +291,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url("https://www.preface.ai/blog/wp-content/uploads/2021/05/photo-1610563166150-b34df4f3bcd6-768x575.jpeg");
+	background-image: url("https://imageio.forbes.com/specials-images/imageserve/5f302109ffad89f9130e07db/Programming-source-code-abstract-background/0x0.jpg?format=jpg&crop=4800,2700,x0,y243,safe&width=960");
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -306,7 +306,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(100deg, #232526 100%, #232526 100%);
-	opacity: 0.9;
+	opacity: 0.7;
 	z-index: -1;
 }
 #services .service-bottom .icon {
@@ -326,10 +326,13 @@ p {
 }
 /* End Services Section */
 
+/* New Projects Section*/
+
+
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
-	max-width: 1200px;
+	max-width: 1950px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -353,7 +356,7 @@ p {
 	border-radius: 10px;
 }
 #projects .project-info {
-	padding: 30px;
+	padding: 100px;
 	flex-basis: 50%;
 	height: 100%;
 	display: flex;
@@ -411,12 +414,12 @@ p {
 	width: 100%;
 }
 #contact .contact-item {
-	width: 80%;
-	padding: 20px;
+	width: 100%;
+	padding: 100px;
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
+	padding: 40px;
+	margin: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -513,7 +516,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: rgb(57, 98, 212);
+		color: rgb(121, 29, 206);
 		font-weight: 500;
 	}
 }
@@ -577,7 +580,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid rgb(57, 98, 212);
+		border: 10px solid rgb(121, 29, 206);
 	}
 	#about .col-right {
 		text-align: left;
